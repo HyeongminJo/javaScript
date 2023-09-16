@@ -32,3 +32,4 @@ console.log(generator.next()); // {value: 3, done: false}
 //value 프로퍼티에는 제너레이터 함수의 반환값 undefined가 할당된다.
 //done 프로퍼티에는 제너레이터 함수가 끝까지 실행되었음을 나타내는 true가 할당된다.
 console.log(generator.next()); // {value: undefined, done: true}
+console.log("hi");
